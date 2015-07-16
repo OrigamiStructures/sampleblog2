@@ -1,0 +1,3 @@
+[submodule "plugins/crudViews"]
+	path = plugins/crudViews
+	url = https://github.com/OrigamiStructures/crudViews.git
