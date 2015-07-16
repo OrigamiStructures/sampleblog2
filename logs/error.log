@@ -1,0 +1,1842 @@
+2015-06-06 22:56:01 Warning: Warning (2): Invalid argument supplied for foreach() in [/Library/WebServer/Documents/sampleblog/src/Template/Trees/index.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Trees/index.ctp, line 21
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-06 23:04:33 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simple_blog.parent_trees' doesn't exist
+Request URL: /sampleblog/trees
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'parent_trees', Array, Object(Cake\Database\Schema\Table))
+#1 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('parent_trees', Array)
+#2 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/ORM/Table.php(426): Cake\Database\Schema\CachedCollection->describe('parent_trees')
+#3 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/ORM/Table.php(502): Cake\ORM\Table->schema()
+#4 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/ORM/Association/BelongsTo.php(167): Cake\ORM\Table->primaryKey()
+#5 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/ORM/Association.php(493): Cake\ORM\Association\BelongsTo->_joinCondition(Array)
+#6 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/ORM/EagerLoader.php(323): Cake\ORM\Association->attachTo(Object(Cake\ORM\Query), Array)
+#7 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/ORM/Query.php(682): Cake\ORM\EagerLoader->attachAssociations(Object(Cake\ORM\Query), Object(App\Model\Table\TreesTable), true)
+#8 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/ORM/Query.php(638): Cake\ORM\Query->_transformQuery()
+#9 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(120): Cake\ORM\Query->sql()
+#10 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Database/Connection.php(220): Cake\Database\Driver\Mysql->prepare(Object(Cake\ORM\Query))
+#11 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Database/Connection.php(272): Cake\Database\Connection->prepare(Object(Cake\ORM\Query))
+#12 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Database/Query.php(175): Cake\Database\Connection->run(Object(Cake\ORM\Query))
+#13 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/ORM/Query.php(657): Cake\Database\Query->execute()
+#14 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Datasource/QueryTrait.php(218): Cake\ORM\Query->_execute()
+#15 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/ORM/Query.php(608): Cake\ORM\Query->_all()
+#16 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php(169): Cake\ORM\Query->all()
+#17 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(640): Cake\Controller\Component\PaginatorComponent->paginate(Object(App\Model\Table\TreesTable), Array)
+#18 /Library/WebServer/Documents/sampleblog/src/Controller/TreesController.php(24): Cake\Controller\Controller->paginate(Object(App\Model\Table\TreesTable))
+#19 [internal function]: App\Controller\TreesController->index()
+#20 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(410): call_user_func_array(Array, Array)
+#21 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#22 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\TreesController))
+#23 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#24 {main}
+
+
+2015-06-06 23:15:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Addresses could not be found.
+Exception Attributes: array (
+  'class' => 'Addresses',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/addresses/add
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-07 17:42:53 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Menus could not be found.
+Exception Attributes: array (
+  'class' => 'Menus',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/menus
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-24 00:32:18 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Pages could not be found.
+Exception Attributes: array (
+  'class' => 'Pages',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-06-24 00:34:42 Error: Fatal Error (1): Class 'App\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 00:34:43 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 00:36:45 Error: Fatal Error (1): Trait 'App\Lib\CrudConfig' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 35]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 00:36:45 Error: [Cake\Error\FatalErrorException] Trait 'App\Lib\CrudConfig' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\Lib\\...', '/Library/WebSer...', 35)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 00:49:19 Error: Fatal Error (1): Class 'App\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 00:49:19 Error: [Cake\Error\FatalErrorException] Class 'App\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Cont...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 00:58:33 Error: Fatal Error (1): Trait 'App\Controller\Plugin\Bakeless\App\Lib\CrudConfig' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 00:58:33 Error: [Cake\Error\FatalErrorException] Trait 'App\Controller\Plugin\Bakeless\App\Lib\CrudConfig' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\Cont...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 00:58:51 Error: Fatal Error (1): Trait 'Plugin\Bakeless\App\Lib\CrudConfig' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 00:58:51 Error: [Cake\Error\FatalErrorException] Trait 'Plugin\Bakeless\App\Lib\CrudConfig' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'Plugin\\B...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 00:59:37 Error: Fatal Error (1): Trait 'App\Controller\App\Lib\CrudConfig' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 00:59:37 Error: [Cake\Error\FatalErrorException] Trait 'App\Controller\App\Lib\CrudConfig' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\Cont...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 00:59:51 Error: Fatal Error (1): Trait 'App\Lib\CrudConfig' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 00:59:51 Error: [Cake\Error\FatalErrorException] Trait 'App\Lib\CrudConfig' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'App\\Lib\\...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 01:38:29 Error: Fatal Error (1): Trait 'Bakeless\Lib\CrudConfig' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 01:38:29 Error: [Cake\Error\FatalErrorException] Trait 'Bakeless\Lib\CrudConfig' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'Bakeless...', '/Library/WebSer...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 01:39:13 Error: Fatal Error (1): Trait 'Bakeless\Lib\CrudConfig' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 01:39:13 Error: [Cake\Error\FatalErrorException] Trait 'Bakeless\Lib\CrudConfig' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'Bakeless...', '/Library/WebSer...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 01:39:18 Error: Fatal Error (1): Trait 'Bakeless\Lib\CrudConfig' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 32]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 01:39:18 Error: [Cake\Error\FatalErrorException] Trait 'Bakeless\Lib\CrudConfig' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'Bakeless...', '/Library/WebSer...', 32)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 01:49:03 Error: Fatal Error (1): Class 'Bakeless\Controller\BakelessAppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 01:49:04 Error: [Cake\Error\FatalErrorException] Class 'Bakeless\Controller\BakelessAppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Bakeless...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 01:53:57 Error: Fatal Error (1): Class 'Bakeless\Controller\BakelessAppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 01:53:57 Error: [Cake\Error\FatalErrorException] Class 'Bakeless\Controller\BakelessAppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Bakeless...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 02:05:41 Error: Fatal Error (1): Trait 'Bakeless\View\Controller\CrudConfig' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 02:05:41 Error: [Cake\Error\FatalErrorException] Trait 'Bakeless\View\Controller\CrudConfig' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'Bakeless...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 02:05:54 Error: Fatal Error (1): Trait 'Bakeless\Controller\CrudConfig' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 02:05:54 Error: [Cake\Error\FatalErrorException] Trait 'Bakeless\Controller\CrudConfig' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'Bakeless...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 02:22:16 Error: Fatal Error (1): Class 'Bakeless\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 02:22:16 Error: [Cake\Error\FatalErrorException] Class 'Bakeless\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Bakeless...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 02:28:33 Error: Fatal Error (1): Class 'Bakeless\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 02:28:33 Error: [Cake\Error\FatalErrorException] Class 'Bakeless\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Bakeless...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 02:28:33 Error: Fatal Error (1): Class 'Bakeless\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 02:28:33 Error: [Cake\Error\FatalErrorException] Class 'Bakeless\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Bakeless...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 02:29:06 Error: Fatal Error (1): Class 'Bakeless\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 02:29:06 Error: [Cake\Error\FatalErrorException] Class 'Bakeless\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Bakeless...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 02:29:06 Error: Fatal Error (1): Class 'Bakeless\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 02:29:06 Error: [Cake\Error\FatalErrorException] Class 'Bakeless\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Bakeless...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 02:30:58 Error: Fatal Error (1): Class 'Bakeless\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 02:30:59 Error: [Cake\Error\FatalErrorException] Class 'Bakeless\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Bakeless...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 02:30:59 Error: Fatal Error (1): Class 'Bakeless\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 02:30:59 Error: [Cake\Error\FatalErrorException] Class 'Bakeless\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Bakeless...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 02:31:57 Error: Fatal Error (1): Class 'Bakeless\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 02:31:57 Error: [Cake\Error\FatalErrorException] Class 'Bakeless\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Bakeless...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 02:46:22 Error: Fatal Error (1): Class 'Bakeless\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 02:46:22 Error: [Cake\Error\FatalErrorException] Class 'Bakeless\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Bakeless...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-06-24 02:46:22 Error: Fatal Error (1): Class 'Bakeless\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-06-24 02:46:22 Error: [Cake\Error\FatalErrorException] Class 'Bakeless\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Bakeless...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-04 17:48:49 Warning: Warning (2): Missing argument 2 for App\View\Helper\CRUD\FieldSetups::leadPlus(), called in /Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/CrudColumns.php on line 67 and defined in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/FieldSetups.php, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\FieldSetups::leadPlus() - APP/View/Helper/CRUD/FieldSetups.php, line 41
+App\View\Helper\CRUD\CrudColumns::output() - APP/View/Helper/CRUD/CrudColumns.php, line 67
+App\View\Helper\CRUD\Decorator\BelongsToDecorator::output() - APP/View/Helper/CRUD/Decorator/BelongsToDecorator.php, line 45
+App\View\Helper\CRUD\Decorator\TableCellDecorator::output() - APP/View/Helper/CRUD/Decorator/TableCellDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/crud_index_table.ctp, line 19
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/index.ctp, line 9
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::index() - APP/Controller/AddressesController.php, line 28
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-04 17:48:49 Warning: Warning (2): Missing argument 2 for App\View\Helper\CRUD\FieldSetups::leadPlus(), called in /Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/CrudColumns.php on line 67 and defined in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/FieldSetups.php, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\FieldSetups::leadPlus() - APP/View/Helper/CRUD/FieldSetups.php, line 41
+App\View\Helper\CRUD\CrudColumns::output() - APP/View/Helper/CRUD/CrudColumns.php, line 67
+App\View\Helper\CRUD\Decorator\BelongsToDecorator::output() - APP/View/Helper/CRUD/Decorator/BelongsToDecorator.php, line 45
+App\View\Helper\CRUD\Decorator\TableCellDecorator::output() - APP/View/Helper/CRUD/Decorator/TableCellDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/crud_index_table.ctp, line 19
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/index.ctp, line 9
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::index() - APP/Controller/AddressesController.php, line 28
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-04 17:48:49 Warning: Warning (2): Missing argument 2 for App\View\Helper\CRUD\FieldSetups::leadPlus(), called in /Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/CrudColumns.php on line 67 and defined in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/FieldSetups.php, line 41]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\FieldSetups::leadPlus() - APP/View/Helper/CRUD/FieldSetups.php, line 41
+App\View\Helper\CRUD\CrudColumns::output() - APP/View/Helper/CRUD/CrudColumns.php, line 67
+App\View\Helper\CRUD\Decorator\BelongsToDecorator::output() - APP/View/Helper/CRUD/Decorator/BelongsToDecorator.php, line 45
+App\View\Helper\CRUD\Decorator\TableCellDecorator::output() - APP/View/Helper/CRUD/Decorator/TableCellDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/crud_index_table.ctp, line 19
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/index.ctp, line 9
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::index() - APP/Controller/AddressesController.php, line 28
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-05 19:36:43 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 19:36:43 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 19:36:43 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 19:36:43 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 19:39:18 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 19:39:18 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 19:39:18 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 19:39:18 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 19:40:12 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 19:40:12 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 19:40:12 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 19:40:12 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 20:12:58 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 20:12:58 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 20:12:58 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 20:12:58 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 20:14:19 Error: Fatal Error (1): Using $this when not in object context in [/Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Core/Plugin.php, line 178]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 20:14:19 Error: [Cake\Error\FatalErrorException] Using $this when not in object context
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Using $this whe...', '/Library/WebSer...', 178)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 20:15:27 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 20:15:27 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 20:15:27 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php, line 30]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 20:15:27 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 30)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 20:47:12 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 20:47:12 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 20:47:12 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 29]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 20:47:12 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 29)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 20:47:57 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 20:47:57 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 20:47:57 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 20:47:57 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 20:51:31 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 20:51:31 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 20:51:31 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 20:51:31 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 20:51:58 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 20:51:58 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 20:51:58 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 20:51:58 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 21:13:27 Error: Fatal Error (1): Class 'plugin\CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 21:13:27 Error: [Cake\Error\FatalErrorException] Class 'plugin\CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'plugin\\C...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 21:13:28 Error: Fatal Error (1): Class 'plugin\CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 21:13:28 Error: [Cake\Error\FatalErrorException] Class 'plugin\CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'plugin\\C...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 21:16:43 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 21:16:44 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 21:16:44 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 21:16:44 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 21:22:16 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 21:22:16 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 21:22:16 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 21:22:16 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 21:24:59 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 21:24:59 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-05 21:25:00 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-05 21:25:00 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 28)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 16:50:45 Error: Fatal Error (1): Trait 'CrudViews\Lib\CrudConfig' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 16:50:45 Error: [Cake\Error\FatalErrorException] Trait 'CrudViews\Lib\CrudConfig' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'CrudView...', '/Library/WebSer...', 33)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 16:50:45 Error: Fatal Error (1): Trait 'CrudViews\Lib\CrudConfig' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 16:50:45 Error: [Cake\Error\FatalErrorException] Trait 'CrudViews\Lib\CrudConfig' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'CrudView...', '/Library/WebSer...', 33)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:08:54 Error: Fatal Error (1): Trait 'CrudViews\Lib\CrudConfig' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 33]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:08:54 Error: [Cake\Error\FatalErrorException] Trait 'CrudViews\Lib\CrudConfig' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Trait 'CrudView...', '/Library/WebSer...', 33)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:10:45 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:10:45 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:11:00 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:11:00 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:14:52 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:14:52 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:14:52 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:14:52 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:16:01 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:16:02 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:16:02 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:16:02 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:20:44 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:20:44 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:23:44 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:23:44 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:23:45 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:23:45 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:23:47 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:23:47 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:29:42 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:29:42 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:43:11 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:43:11 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:44:23 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:44:24 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:47:08 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:47:08 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:47:08 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:47:08 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-06 22:48:24 Error: Fatal Error (1): Class 'CrudViews\Controller\AppController' not found in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 31]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-06 22:48:24 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Controller\AppController' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 31)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-07 00:07:52 Error: Fatal Error (1): Class 'CrudViews\Lib\Collection' not found in [/Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Lib/CrudConfig.php, line 107]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-07 00:07:52 Error: [Cake\Error\FatalErrorException] Class 'CrudViews\Lib\Collection' not found
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'CrudView...', '/Library/WebSer...', 107)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-07 00:29:23 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'simple_blog.navigators' doesn't exist
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'navigators', Array, Object(Cake\Database\Schema\Table))
+#1 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(65): Cake\Database\Schema\Collection->describe('navigators', Array)
+#2 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/ORM/Table.php(426): Cake\Database\Schema\CachedCollection->describe('navigators')
+#3 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Model/Table/CrudData.php(392): Cake\ORM\Table->schema()
+#4 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Model/Table/CrudData.php(214): CrudViews\Model\Table\CrudData->_columns(true)
+#5 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Model/Table/CrudData.php(178): CrudViews\Model\Table\CrudData->update()
+#6 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Lib/CrudConfig.php(187): CrudViews\Model\Table\CrudData->__construct(Object(Cake\ORM\Table), Array)
+#7 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Lib/CrudConfig.php(57): CrudViews\Controller\AppController->buildCrudData('Navigators', Array)
+#8 /Library/WebServer/Documents/sampleblog/src/Controller/AppController.php(83): CrudViews\Controller\AppController->configIndex('Navigators')
+#9 /Library/WebServer/Documents/sampleblog/src/Controller/AppController.php(49): App\Controller\AppController->navigatorsIndex()
+#10 /Library/WebServer/Documents/sampleblog/src/Controller/AppController.php(66): App\Controller\AppController->loadMainNavigation()
+#11 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Event/EventManager.php(381): App\Controller\AppController->beforeFilter(Object(Cake\Event\Event))
+#12 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Event/EventManager.php(351): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#13 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Event/EventManagerTrait.php(78): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#14 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(472): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#15 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(109): Cake\Controller\Controller->startupProcess()
+#16 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#17 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-07-07 00:45:53 Error: [Cake\View\Exception\MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => NULL,
+)
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(87): Cake\View\HelperRegistry->_throwMissingClassError('Crud', NULL)
+#1 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(846): Cake\Core\ObjectRegistry->load('Crud', Array)
+#2 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(749): Cake\View\View->loadHelper('Crud', Array)
+#3 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(321): Cake\View\View->loadHelpers()
+#4 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(101): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(71): Cake\Controller\Controller->createView()
+#6 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(581): Cake\Controller\Controller->getView()
+#7 /Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#8 [internal function]: App\Controller\PagesController->display('home')
+#9 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(410): call_user_func_array(Array, Array)
+#10 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#12 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2015-07-07 00:48:37 Error: [Cake\View\Exception\MissingHelperException] Helper class CrudHelper could not be found.
+Exception Attributes: array (
+  'class' => 'CrudHelper',
+  'plugin' => NULL,
+)
+Request URL: /sampleblog/
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(87): Cake\View\HelperRegistry->_throwMissingClassError('Crud', NULL)
+#1 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(846): Cake\Core\ObjectRegistry->load('Crud', Array)
+#2 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(749): Cake\View\View->loadHelper('Crud', Array)
+#3 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(321): Cake\View\View->loadHelpers()
+#4 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(101): Cake\View\View->__construct(Object(Cake\Network\Request), Object(Cake\Network\Response), Object(Cake\Event\EventManager), Array)
+#5 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/ViewVarsTrait.php(71): Cake\Controller\Controller->createView()
+#6 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(581): Cake\Controller\Controller->getView()
+#7 /Library/WebServer/Documents/sampleblog/src/Controller/PagesController.php(57): Cake\Controller\Controller->render('home')
+#8 [internal function]: App\Controller\PagesController->display('home')
+#9 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(410): call_user_func_array(Array, Array)
+#10 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PagesController))
+#12 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2015-07-07 01:21:02 Error: [Cake\View\Exception\MissingTemplateException] Template file "CRUD/index_form.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'CRUD/index_form.ctp',
+)
+Request URL: /sampleblog/menus
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(460): Cake\View\View->_getViewFileName('/CRUD/index_for...')
+#1 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(581): Cake\View\View->render('/CRUD/index_for...', NULL)
+#2 /Library/WebServer/Documents/sampleblog/src/Controller/MenusController.php(47): Cake\Controller\Controller->render('/CRUD/index_for...')
+#3 [internal function]: App\Controller\MenusController->index()
+#4 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(410): call_user_func_array(Array, Array)
+#5 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\MenusController))
+#7 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-07-07 01:22:53 Error: [Cake\View\Exception\MissingTemplateException] Template file "CrudViews/View/CRUD/index_form.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'CrudViews/View/CRUD/index_form.ctp',
+)
+Request URL: /sampleblog/menus
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(460): Cake\View\View->_getViewFileName('/CrudViews/View...')
+#1 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(581): Cake\View\View->render('/CrudViews/View...', NULL)
+#2 /Library/WebServer/Documents/sampleblog/src/Controller/MenusController.php(47): Cake\Controller\Controller->render('/CrudViews/View...')
+#3 [internal function]: App\Controller\MenusController->index()
+#4 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(410): call_user_func_array(Array, Array)
+#5 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#6 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\MenusController))
+#7 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 {main}
+
+
+2015-07-07 01:23:22 Error: [Cake\View\Exception\MissingElementException] Element/CRUD/crud_actions_ul.ctp
+Request URL: /sampleblog/menus
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/CRUD/index_form.ctp(8): Cake\View\View->element('CRUD/crud_actio...')
+#1 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(815): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(775): Cake\View\View->_evaluate('/Library/WebSer...', Array)
+#3 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(463): Cake\View\View->_render('/Library/WebSer...')
+#4 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(581): Cake\View\View->render('CrudViews.CRUD/...', NULL)
+#5 /Library/WebServer/Documents/sampleblog/src/Controller/MenusController.php(47): Cake\Controller\Controller->render('CrudViews.CRUD/...')
+#6 [internal function]: App\Controller\MenusController->index()
+#7 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(410): call_user_func_array(Array, Array)
+#8 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#9 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\MenusController))
+#10 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-07-07 01:24:12 Error: [Cake\View\Exception\MissingElementException] Element/CRUD/crud_actions_ul.ctp
+Request URL: /sampleblog/menus
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/CRUD/index_form.ctp(8): Cake\View\View->element('CRUD/crud_actio...')
+#1 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(815): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(775): Cake\View\View->_evaluate('/Library/WebSer...', Array)
+#3 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(463): Cake\View\View->_render('/Library/WebSer...')
+#4 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(581): Cake\View\View->render('CrudViews./CRUD...', NULL)
+#5 /Library/WebServer/Documents/sampleblog/src/Controller/MenusController.php(47): Cake\Controller\Controller->render('CrudViews./CRUD...')
+#6 [internal function]: App\Controller\MenusController->index()
+#7 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(410): call_user_func_array(Array, Array)
+#8 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#9 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\MenusController))
+#10 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-07-07 01:25:57 Error: [Cake\View\Exception\MissingHelperException] Helper class ModelActionHelper could not be found.
+Exception Attributes: array (
+  'class' => 'ModelActionHelper',
+  'plugin' => NULL,
+)
+Request URL: /sampleblog/menus
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(87): Cake\View\HelperRegistry->_throwMissingClassError('ModelAction', NULL)
+#1 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(846): Cake\Core\ObjectRegistry->load('ModelAction', Array)
+#2 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/Helper.php(151): Cake\View\View->loadHelper('ModelAction', Array)
+#3 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/Element/CRUD/crud_actions_ul.ctp(10): Cake\View\Helper->__get('ModelAction')
+#4 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(815): include('/Library/WebSer...')
+#5 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(775): Cake\View\View->_evaluate('/Library/WebSer...', Array)
+#6 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(1142): Cake\View\View->_render('/Library/WebSer...', Array)
+#7 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(374): Cake\View\View->_renderElement('/Library/WebSer...', Array, Array)
+#8 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/CRUD/index_form.ctp(8): Cake\View\View->element('CrudViews.CRUD/...')
+#9 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(815): include('/Library/WebSer...')
+#10 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(775): Cake\View\View->_evaluate('/Library/WebSer...', Array)
+#11 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(463): Cake\View\View->_render('/Library/WebSer...')
+#12 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(581): Cake\View\View->render('CrudViews.CRUD/...', NULL)
+#13 /Library/WebServer/Documents/sampleblog/src/Controller/MenusController.php(47): Cake\Controller\Controller->render('CrudViews.CRUD/...')
+#14 [internal function]: App\Controller\MenusController->index()
+#15 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(410): call_user_func_array(Array, Array)
+#16 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#17 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\MenusController))
+#18 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#19 {main}
+
+
+2015-07-07 01:29:47 Error: [Cake\View\Exception\MissingElementException] Element/simple_search.ctp
+Request URL: /sampleblog/menus
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/View/Helper/ModelActionHelper.php(83): Cake\View\View->element('simple_search')
+#1 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/View/Helper/ModelActionHelper.php(39): CrudViews\View\Helper\ModelActionHelper->search(Object(stdClass), 'search', Object(CrudViews\Lib\NameConventions))
+#2 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/Element/CRUD/crud_actions_ul.ctp(10): CrudViews\View\Helper\ModelActionHelper->output(Object(stdClass), 'search', Object(CrudViews\Lib\NameConventions))
+#3 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(815): include('/Library/WebSer...')
+#4 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(775): Cake\View\View->_evaluate('/Library/WebSer...', Array)
+#5 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(1142): Cake\View\View->_render('/Library/WebSer...', Array)
+#6 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(374): Cake\View\View->_renderElement('/Library/WebSer...', Array, Array)
+#7 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/CRUD/index_form.ctp(8): Cake\View\View->element('CrudViews.CRUD/...')
+#8 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(815): include('/Library/WebSer...')
+#9 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(775): Cake\View\View->_evaluate('/Library/WebSer...', Array)
+#10 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(463): Cake\View\View->_render('/Library/WebSer...')
+#11 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(581): Cake\View\View->render('CrudViews.CRUD/...', NULL)
+#12 /Library/WebServer/Documents/sampleblog/src/Controller/MenusController.php(47): Cake\Controller\Controller->render('CrudViews.CRUD/...')
+#13 [internal function]: App\Controller\MenusController->index()
+#14 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(410): call_user_func_array(Array, Array)
+#15 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\MenusController))
+#17 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-07-07 01:31:39 Error: [Cake\View\Exception\MissingElementException] Element/simple_search.ctp
+Request URL: /sampleblog/menus
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/View/Helper/ModelActionHelper.php(83): Cake\View\View->element('simple_search')
+#1 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/View/Helper/ModelActionHelper.php(39): CrudViews\View\Helper\ModelActionHelper->search(Object(stdClass), 'search', Object(CrudViews\Lib\NameConventions))
+#2 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/Element/CRUD/crud_actions_ul.ctp(10): CrudViews\View\Helper\ModelActionHelper->output(Object(stdClass), 'search', Object(CrudViews\Lib\NameConventions))
+#3 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(815): include('/Library/WebSer...')
+#4 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(775): Cake\View\View->_evaluate('/Library/WebSer...', Array)
+#5 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(1142): Cake\View\View->_render('/Library/WebSer...', Array)
+#6 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(374): Cake\View\View->_renderElement('/Library/WebSer...', Array, Array)
+#7 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/CRUD/index_form.ctp(8): Cake\View\View->element('CrudViews.CRUD/...')
+#8 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(815): include('/Library/WebSer...')
+#9 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(775): Cake\View\View->_evaluate('/Library/WebSer...', Array)
+#10 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(463): Cake\View\View->_render('/Library/WebSer...')
+#11 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(581): Cake\View\View->render('CrudViews.CRUD/...', NULL)
+#12 /Library/WebServer/Documents/sampleblog/src/Controller/MenusController.php(47): Cake\Controller\Controller->render('CrudViews.CRUD/...')
+#13 [internal function]: App\Controller\MenusController->index()
+#14 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(410): call_user_func_array(Array, Array)
+#15 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#16 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\MenusController))
+#17 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#18 {main}
+
+
+2015-07-07 01:32:07 Error: Fatal Error (1): Class 'App\Lib\Uuid' not found in [/Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/Element/CRUD/crud_index_table_form.ctp, line 16]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-07 01:32:07 Error: [Cake\Error\FatalErrorException] Class 'App\Lib\Uuid' not found
+Request URL: /sampleblog/menus
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Lib\\...', '/Library/WebSer...', 16)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-07 01:33:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/css/crud_root.css
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-07 01:34:32 Error: Fatal Error (1): Call to a member function blacklist() on a non-object in [/Library/WebServer/Documents/sampleblog/src/Controller/MenusController.php, line 90]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-07 01:34:32 Error: [Cake\Error\FatalErrorException] Call to a member function blacklist() on a non-object
+Request URL: /sampleblog/menus/add
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/Library/WebSer...', 90)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-07 05:33:42 Error: Fatal Error (1): Call to a member function blacklist() on a non-object in [/Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Lib/CrudConfig.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-07 05:33:42 Error: [Cake\Error\FatalErrorException] Call to a member function blacklist() on a non-object
+Request URL: /sampleblog/menus/add
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/Library/WebSer...', 97)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-07 14:57:15 Error: [Cake\View\Exception\MissingElementException] Element/CRUD/crud_actions_ul.ctp
+Request URL: /sampleblog/menus/add
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/CRUD/edit.ctp(3): Cake\View\View->element('CRUD/crud_actio...')
+#1 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(815): include('/Library/WebSer...')
+#2 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(775): Cake\View\View->_evaluate('/Library/WebSer...', Array)
+#3 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(463): Cake\View\View->_render('/Library/WebSer...')
+#4 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(581): Cake\View\View->render('CrudViews.CRUD/...', NULL)
+#5 /Library/WebServer/Documents/sampleblog/src/Controller/MenusController.php(99): Cake\Controller\Controller->render('CrudViews.CRUD/...')
+#6 [internal function]: App\Controller\MenusController->add()
+#7 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(410): call_user_func_array(Array, Array)
+#8 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#9 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\MenusController))
+#10 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 {main}
+
+
+2015-07-07 15:00:26 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/css/crud_root.css
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-07 15:00:30 Error: Fatal Error (1): Call to a member function attributes() on a non-object in [/Library/WebServer/Documents/sampleblog/src/Controller/MenusController.php, line 122]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-07 15:00:30 Error: [Cake\Error\FatalErrorException] Call to a member function attributes() on a non-object
+Request URL: /sampleblog/menus/edit/9
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/Library/WebSer...', 122)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-07 15:04:41 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/css/crud_root.css
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-07 15:05:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class SubMenus could not be found.
+Exception Attributes: array (
+  'class' => 'SubMenus',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/sub_menus
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-07 15:32:55 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/css/crud_root.css
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-07 15:33:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/css/crud_root.css
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-07 15:33:30 Error: [Cake\View\Exception\MissingTemplateException] Template file "Menus/view.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Menus/view.ctp',
+)
+Request URL: /sampleblog/menus/view/9
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/View/View.php(460): Cake\View\View->_getViewFileName(NULL)
+#1 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Controller/Controller.php(581): Cake\View\View->render(NULL, NULL)
+#2 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\MenusController))
+#4 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2015-07-07 22:48:35 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/css/crud_root.css
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-07 22:58:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/css/crud_root.css
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-07 23:02:25 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Src could not be found.
+Exception Attributes: array (
+  'class' => 'Src',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/src/Controller/MenusController.php?XDEBUG_SESSION_START=netbeans-xdebug
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-07 23:07:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Src could not be found.
+Exception Attributes: array (
+  'class' => 'Src',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/src/Controller/MenusController.php?XDEBUG_SESSION_START=netbeans-xdebug
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-07 23:12:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/css/crud_root.css
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-07 23:31:00 Error: Fatal Error (1): Call to undefined method App\Controller\MenusController::keys() in [xdebug://debug-eval, line 1]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-07 23:31:01 Error: [Cake\Error\FatalErrorException] Call to undefined method App\Controller\MenusController::keys()
+Request URL: /sampleblog/menus?XDEBUG_SESSION_START=netbeans-xdebug
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'xdebug://debug-...', 1)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-07 23:35:26 Error: Fatal Error (4): syntax error, unexpected ';' in [xdebug://debug-eval, line 1]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-07 23:35:26 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';'
+Request URL: /sampleblog/menus?XDEBUG_SESSION_START=netbeans-xdebug
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'xdebug://debug-...', 1)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-07 23:35:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /sampleblog/css/crud_root.css
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2015-07-07 23:35:29 Error: Fatal Error (4): syntax error, unexpected ';' in [xdebug://debug-eval, line 1]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-07 23:35:29 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';'
+Request URL: /sampleblog/css/crud_root.css
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'xdebug://debug-...', 1)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-07 23:35:34 Error: Fatal Error (4): syntax error, unexpected ';' in [xdebug://debug-eval, line 1]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-07 23:35:34 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';'
+Request URL: /sampleblog/debug_kit/toolbar/0233eb2e-0c1a-49f6-82e9-1f7f6f6b5d97
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'xdebug://debug-...', 1)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2015-07-07 23:35:43 Error: Fatal Error (4): syntax error, unexpected ';' in [xdebug://debug-eval, line 1]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2015-07-07 23:35:43 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ';'
+Request URL: /sampleblog/debug_kit/toolbar/0233eb2e-0c1a-49f6-82e9-1f7f6f6b5d97
+Stack Trace:
+#0 /Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'xdebug://debug-...', 1)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

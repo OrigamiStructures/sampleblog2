@@ -1,0 +1,2423 @@
+2015-06-30 04:12:21 Notice: Notice (8): Undefined index: id in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:12:21 Notice: Notice (8): Undefined index: address in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:12:21 Notice: Notice (8): Undefined index: created in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:12:21 Notice: Notice (8): Undefined index: modified in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:12:21 Notice: Notice (8): Undefined index: updated in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:12:21 Notice: Notice (8): Undefined index: boo in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:12:21 Notice: Notice (8): Undefined index: many_words in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 22
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:21:54 Notice: Notice (8): Undefined index: attributes in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/CrudFields.php, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:21:54 Notice: Notice (8): Undefined index: attributes in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/CrudFields.php, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:21:54 Notice: Notice (8): Undefined index: attributes in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/CrudFields.php, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:21:54 Notice: Notice (8): Undefined index: attributes in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/CrudFields.php, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:21:54 Notice: Notice (8): Undefined index: attributes in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/CrudFields.php, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:21:54 Notice: Notice (8): Undefined index: attributes in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/CrudFields.php, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:21:54 Notice: Notice (8): Undefined index: attributes in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/CrudFields.php, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 04:21:54 Notice: Notice (8): Undefined index: attributes in [/Library/WebServer/Documents/simpleblog/src/View/Helper/CRUD/CrudFields.php, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:58:01 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 13:59:21 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:04 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:04 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:04 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:04 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:04 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:04 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:04 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:04 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:05 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:05 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:05 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:05 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:05 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:05 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:05 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 20
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:06:05 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 34
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:15 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 24
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:15 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 38
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:15 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 24
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:16 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 38
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:16 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 24
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:16 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 38
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:16 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 24
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:16 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 38
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:16 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 24
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:16 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 38
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:16 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 24
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:16 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 38
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:16 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 24
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:16 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 38
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:16 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 24
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:10:16 Notice: Notice (8): Undefined property: App\Model\Table\CrudData::$_column in [/Library/WebServer/Documents/simpleblog/src/Model/Table/CrudData.php, line 319]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Model\Table\CrudData::column() - APP/Model/Table/CrudData.php, line 319
+App\View\Helper\CrudHelper::column() - APP/View/Helper/CrudHelper.php, line 200
+App\View\Helper\CRUD\CrudFields::input() - APP/View/Helper/CRUD/CrudFields.php, line 128
+App\View\Helper\CRUD\CrudFields::output() - APP/View/Helper/CRUD/CrudFields.php, line 65
+App\View\Helper\CRUD\Decorator\EmptySelectorDecorator::output() - APP/View/Helper/CRUD/Decorator/EmptySelectorDecorator.php, line 38
+App\View\Helper\CrudHelper::output() - APP/View/Helper/CrudHelper.php, line 298
+include - APP/Template/Element/CRUD/formx.ctp, line 24
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/add.ctp, line 8
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::add() - APP/Controller/AddressesController.php, line 73
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-06-30 14:40:37 Notice: Notice (8): Undefined variable: addressesOrganizations in [/Library/WebServer/Documents/simpleblog/src/Template/Element/CRUD/form.ctp, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Element/CRUD/form.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/edit.ctp, line 7
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::edit() - APP/Controller/AddressesController.php, line 103
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-02 22:56:52 Notice: Notice (8): Undefined variable: addressesOrganizations in [/Library/WebServer/Documents/simpleblog/src/Template/Element/CRUD/form.ctp, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Element/CRUD/form.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/edit.ctp, line 7
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::edit() - APP/Controller/AddressesController.php, line 103
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-04 17:50:27 Notice: Notice (8): Undefined variable: addressesOrganizations in [/Library/WebServer/Documents/simpleblog/src/Template/Element/CRUD/form.ctp, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Element/CRUD/form.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - APP/Template/CRUD/edit.ctp, line 7
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\AddressesController::edit() - APP/Controller/AddressesController.php, line 103
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-05 19:40:12 Notice: Notice (8): Use of undefined constant Plugin - assumed 'Plugin' in [/Library/WebServer/Documents/sampleblog/config/bootstrap.php, line 185]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+require - ROOT/config/bootstrap.php, line 185
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2015-07-05 19:40:12 Notice: Notice (8): Use of undefined constant Plugin - assumed 'Plugin' in [/Library/WebServer/Documents/sampleblog/config/bootstrap.php, line 185]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+require - ROOT/config/bootstrap.php, line 185
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2015-07-05 19:40:12 Notice: Notice (8): Use of undefined constant Plugin - assumed 'Plugin' in [/Library/WebServer/Documents/sampleblog/config/bootstrap.php, line 185]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+require - ROOT/config/bootstrap.php, line 185
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2015-07-05 20:12:58 Notice: Notice (8): Undefined variable: this in [/Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Core/Plugin.php, line 178]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 178
+require - ROOT/config/bootstrap.php, line 183
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2015-07-05 20:12:58 Notice: Notice (8): Undefined variable: this in [/Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Core/Plugin.php, line 178]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 178
+require - ROOT/config/bootstrap.php, line 184
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2015-07-05 20:12:58 Notice: Notice (8): Undefined variable: this in [/Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Core/Plugin.php, line 178]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 178
+require - ROOT/config/bootstrap.php, line 189
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2015-07-05 20:12:58 Notice: Notice (8): Undefined variable: this in [/Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Core/Plugin.php, line 178]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 178
+require - ROOT/config/bootstrap.php, line 183
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2015-07-05 20:12:58 Notice: Notice (8): Undefined variable: this in [/Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Core/Plugin.php, line 178]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 178
+require - ROOT/config/bootstrap.php, line 184
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2015-07-05 20:12:58 Notice: Notice (8): Undefined variable: this in [/Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Core/Plugin.php, line 178]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 178
+require - ROOT/config/bootstrap.php, line 189
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2015-07-05 20:12:58 Notice: Notice (8): Undefined variable: this in [/Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Core/Plugin.php, line 178]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 178
+require - ROOT/config/bootstrap.php, line 183
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2015-07-05 20:12:58 Notice: Notice (8): Undefined variable: this in [/Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Core/Plugin.php, line 178]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 178
+require - ROOT/config/bootstrap.php, line 184
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2015-07-05 20:12:58 Notice: Notice (8): Undefined variable: this in [/Library/WebServer/Documents/sampleblog/vendor/cakephp/cakephp/src/Core/Plugin.php, line 178]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Core\Plugin::load() - CORE/src/Core/Plugin.php, line 178
+require - ROOT/config/bootstrap.php, line 189
+[main] - ROOT/webroot/index.php, line 27
+
+
+
+2015-07-06 22:58:47 Notice: Strict (2048): CrudViews\Controller\AppController and CrudViews\Lib\CrudConfig define the same property ($_CrudData) in the composition of App\Controller\AppController. This might be incompatible, to improve maintainability consider using accessor methods in traits instead. Class was composed in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 109]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Controller/AppController.php, line 109
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 428
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 304
+spl_autoload_call - [internal], line ??
+include - APP/Controller/PagesController.php, line 29
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 428
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 304
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE/src/Core/App.php, line 89
+Cake\Core\App::className() - CORE/src/Core/App.php, line 66
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 78
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 49
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-06 22:58:47 Notice: Strict (2048): CrudViews\Controller\AppController and CrudViews\Lib\CrudConfig define the same property ($_WorkingCrudData) in the composition of App\Controller\AppController. This might be incompatible, to improve maintainability consider using accessor methods in traits instead. Class was composed in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 109]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Controller/AppController.php, line 109
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 428
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 304
+spl_autoload_call - [internal], line ??
+include - APP/Controller/PagesController.php, line 29
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 428
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 304
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE/src/Core/App.php, line 89
+Cake\Core\App::className() - CORE/src/Core/App.php, line 66
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 78
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 49
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-06 22:58:47 Notice: Strict (2048): CrudViews\Controller\AppController and CrudViews\Lib\CrudConfig define the same property ($_ModelActions) in the composition of App\Controller\AppController. This might be incompatible, to improve maintainability consider using accessor methods in traits instead. Class was composed in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 109]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Controller/AppController.php, line 109
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 428
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 304
+spl_autoload_call - [internal], line ??
+include - APP/Controller/PagesController.php, line 29
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 428
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 304
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE/src/Core/App.php, line 89
+Cake\Core\App::className() - CORE/src/Core/App.php, line 66
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 78
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 49
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-06 22:58:47 Notice: Strict (2048): CrudViews\Controller\AppController and CrudViews\Lib\CrudConfig define the same property ($_AssociationActions) in the composition of App\Controller\AppController. This might be incompatible, to improve maintainability consider using accessor methods in traits instead. Class was composed in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 109]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Controller/AppController.php, line 109
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 428
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 304
+spl_autoload_call - [internal], line ??
+include - APP/Controller/PagesController.php, line 29
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 428
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 304
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE/src/Core/App.php, line 89
+Cake\Core\App::className() - CORE/src/Core/App.php, line 66
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 78
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 49
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-06 22:58:47 Notice: Strict (2048): CrudViews\Controller\AppController and CrudViews\Lib\CrudConfig define the same property ($_RecordActions) in the composition of App\Controller\AppController. This might be incompatible, to improve maintainability consider using accessor methods in traits instead. Class was composed in [/Library/WebServer/Documents/sampleblog/src/Controller/AppController.php, line 109]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Controller/AppController.php, line 109
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 428
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 304
+spl_autoload_call - [internal], line ??
+include - APP/Controller/PagesController.php, line 29
+Composer\Autoload\includeFile - ROOT/vendor/composer/ClassLoader.php, line 428
+Composer\Autoload\ClassLoader::loadClass() - ROOT/vendor/composer/ClassLoader.php, line 304
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE/src/Core/App.php, line 89
+Cake\Core\App::className() - CORE/src/Core/App.php, line 66
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 78
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE/src/Routing/Filter/ControllerFactoryFilter.php, line 49
+Cake\Routing\DispatcherFilter::handle() - CORE/src/Routing/DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE/src/Event/EventManager.php, line 385
+Cake\Event\EventManager::dispatch() - CORE/src/Event/EventManager.php, line 351
+Cake\Routing\Dispatcher::dispatchEvent() - CORE/src/Event/EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 62
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-07 15:00:14 Notice: Notice (8): Undefined variable: subMenus in [/Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/Element/CRUD/form.ctp, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - ROOT/plugins/CrudViews/src/Template/Element/CRUD/form.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - ROOT/plugins/CrudViews/src/Template/CRUD/edit.ctp, line 7
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\MenusController::add() - APP/Controller/MenusController.php, line 99
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-07 15:03:23 Notice: Notice (8): Undefined variable: subMenus in [/Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/Element/CRUD/form.ctp, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - ROOT/plugins/CrudViews/src/Template/Element/CRUD/form.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - ROOT/plugins/CrudViews/src/Template/CRUD/edit.ctp, line 7
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\MenusController::add() - APP/Controller/MenusController.php, line 98
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-07 15:33:18 Notice: Notice (8): Undefined variable: subMenus in [/Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/Element/CRUD/form.ctp, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - ROOT/plugins/CrudViews/src/Template/Element/CRUD/form.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - ROOT/plugins/CrudViews/src/Template/CRUD/edit.ctp, line 7
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\MenusController::add() - APP/Controller/MenusController.php, line 99
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-07 15:34:07 Notice: Notice (8): Undefined variable: parents in [/Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/Element/CRUD/form.ctp, line 21]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - ROOT/plugins/CrudViews/src/Template/Element/CRUD/form.ctp, line 21
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - ROOT/plugins/CrudViews/src/Template/CRUD/edit.ctp, line 7
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\MenusController::view() - APP/Controller/MenusController.php, line 72
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2015-07-07 15:34:07 Notice: Notice (8): Undefined variable: subMenus in [/Library/WebServer/Documents/sampleblog/plugins/CrudViews/src/Template/Element/CRUD/form.ctp, line 39]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - ROOT/plugins/CrudViews/src/Template/Element/CRUD/form.ctp, line 39
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::_renderElement() - CORE/src/View/View.php, line 1142
+Cake\View\View::element() - CORE/src/View/View.php, line 374
+include - ROOT/plugins/CrudViews/src/Template/CRUD/edit.ctp, line 7
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 815
+Cake\View\View::_render() - CORE/src/View/View.php, line 775
+Cake\View\View::render() - CORE/src/View/View.php, line 463
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 581
+App\Controller\MenusController::view() - APP/Controller/MenusController.php, line 72
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 410
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
